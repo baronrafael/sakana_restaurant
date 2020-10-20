@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bulma/css/bulma.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sakana-restaurant"
+    }
+  },
+  "defaultProject": "sakana-restaurant",
+  "cli": {
+    "analytics": false
+  }
 }
