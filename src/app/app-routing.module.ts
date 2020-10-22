@@ -7,7 +7,6 @@ const routes: Routes = [
     path: '',
     component: LayoutComponent,
     children: [
-      { path: '', redirectTo: '', pathMatch: 'full' },
       {
         path: '',
         loadChildren: () => import('./components/home/home.module').then(m => m.HomeModule),
