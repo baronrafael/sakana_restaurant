@@ -4,6 +4,7 @@
 
 // Set your brand colors
 $black: #010101;
+$white: #FDFDFD;
 
 /* $purple: #8A4D76;
 $pink: #FA7C91;
@@ -28,7 +29,7 @@ $input-shadow: none; */
 
 @import "../node_modules/bulma/bulma.sass";
 
-html, body { height: 100%; }
+html, body { height: 100%; background: $black; }
 body { margin: 0; /* font-family: Roboto, "Helvetica Neue", sans-serif; */ }
 
 .is-sakana-logo {
@@ -41,4 +42,20 @@ body { margin: 0; /* font-family: Roboto, "Helvetica Neue", sans-serif; */ }
     font-family: 'Buy More';
     font-size: 1rem;
     color: $white;
+}
+
+.is-subfont {
+    font-family: 'WRESTLEMANIA';
+    color: $white;
+    font-size: 2rem;
+}
+
+.navbar-burger {
+    color: $white;
+    height: 5.25rem;
+}
+
+.navbar-burger:hover {
+    background-color: #DF0333;
+    color: $black;
 }
