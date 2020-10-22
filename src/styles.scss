@@ -13,10 +13,10 @@ $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB; */
 
 // Update Bulma's global variables
+$primary: #DF0333;
 /* $family-sans-serif: "Nunito", sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
-$primary: $purple;
 $link: $pink;
 $widescreen-enabled: false;
 $fullhd-enabled: false; */
@@ -58,4 +58,11 @@ body { margin: 0; /* font-family: Roboto, "Helvetica Neue", sans-serif; */ }
 .navbar-burger:hover {
     background-color: #DF0333;
     color: $black;
+}
+
+.button.is-black:hover, .button.is-black.is-hovered {
+    background-color: $primary;
+    border-color: transparent;
+    color: $black;
+    text-transform: uppercase;
 }
