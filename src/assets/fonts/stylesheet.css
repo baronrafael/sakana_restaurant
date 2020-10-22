@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'WRESTLEMANIA';
+    src: url('WRESTLEMANIA.woff2') format('woff2'),
+        url('WRESTLEMANIA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Buy More';
+    src: url('BuyMore.woff2') format('woff2'),
+        url('BuyMore.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
