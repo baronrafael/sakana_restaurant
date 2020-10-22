@@ -1,6 +1,6 @@
 <nav class="navbar has-background-black" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item">
+        <a class="navbar-item is-full-logo" (click)="goToHome()">
             <div class="columns">
                 <div class="column is-narrow">
                     <div class="columns mb-2">
@@ -25,7 +25,7 @@
     </div>
     <div [className]="isMenuActive ? 'navbar-menu is-active has-background-black' : 'navbar-menu has-background-black'">
         <!-- navbar start, navbar end -->
-        <button class="button is-black is-subfont">menu</button>
-        <button class="button is-black is-subfont">contactanos</button>
+        <button class="button is-black is-subfont" (click)="goToMenu()">menu</button>
+        <button class="button is-black is-subfont" (click)="goToContact()">contactanos</button>
     </div>
 </nav>

@@ -32,16 +32,32 @@ $input-shadow: none; */
 html, body { height: 100%; background: $black; }
 body { margin: 0; /* font-family: Roboto, "Helvetica Neue", sans-serif; */ }
 
+.is-unselectable {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+.is-full-logo:hover * {
+    color: $primary;
+}
+
 .is-sakana-logo {
     font-family: 'Buy More';
     font-size: 2rem;
     color: $white;
+    @extend .is-unselectable;
 }
 
 .is-restaurant-logo {
     font-family: 'Buy More';
     font-size: 1rem;
     color: $white;
+    @extend .is-unselectable;
 }
 
 .is-subfont {
