@@ -20,12 +20,13 @@
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
-          </a>
-          
+        </a>
     </div>
     <div [className]="isMenuActive ? 'navbar-menu is-active has-background-black' : 'navbar-menu has-background-black'">
         <!-- navbar start, navbar end -->
-        <button class="button is-black is-subfont ripple" (click)="goToMenu()">menu</button>
-        <button class="button is-black is-subfont ripple" (click)="goToContact()">contactanos</button>
+        <div class="navbar-start">
+            <button class="button is-black is-subfont ripple" (click)="goToMenu()">menu</button>
+            <button class="button is-black is-subfont ripple" (click)="goToContact()">contactanos</button>
+        </div>         
     </div>
 </nav>
