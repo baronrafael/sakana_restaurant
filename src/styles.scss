@@ -122,3 +122,7 @@ body { margin: 0; /* font-family: Roboto, "Helvetica Neue", sans-serif; */ }
         text-transform: uppercase;
     }
 }
+
+.has-background-radial-black-to-primary {
+    background: radial-gradient($primary, $black);;
+}
