@@ -4,12 +4,12 @@
             <div class="columns">
                 <div class="column is-narrow">
                     <div class="columns mb-2">
-                        <div class="column is-narrow pb-0">
+                        <div class="column is-narrow pb-0 pt-1">
                             <h1 class="is-sakana-logo is-uppercase">SAKANA</h1>
                         </div>
                     </div>
                     <div class="columns">
-                        <div class="column has-text-right pt-0">
+                        <div class="column has-text-right pt-0 pb-1">
                             <h1 class="is-restaurant-logo is-uppercase">RESTAURANT</h1>
                         </div>
                     </div>
@@ -25,7 +25,7 @@
     </div>
     <div [className]="isMenuActive ? 'navbar-menu is-active has-background-black' : 'navbar-menu has-background-black'">
         <!-- navbar start, navbar end -->
-        <button class="button is-black is-subfont" (click)="goToMenu()">menu</button>
-        <button class="button is-black is-subfont" (click)="goToContact()">contactanos</button>
+        <button class="button is-black is-subfont ripple" (click)="goToMenu()">menu</button>
+        <button class="button is-black is-subfont ripple" (click)="goToContact()">contactanos</button>
     </div>
 </nav>
